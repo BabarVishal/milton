@@ -1,0 +1,868 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    
+}
+
+.navbar{
+    position: relative;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 1px solid rgb(223, 217, 217);
+    background-color: rgb(255, 255, 255)
+   
+    
+   
+
+}
+
+ .cantenet ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.cantenet ul li:hover{
+   text-decoration: underline;
+   cursor: pointer;
+   color:black;
+    opacity: 0.9;
+}
+
+.cantenet ul  li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:black;
+    opacity: 0.6;
+}
+
+.endcantenet button{
+height: 50px;
+width: 100px;
+font-size: 25px;
+margin: 20px 10px;
+border-radius: 15px;
+}
+.endcantenet button:hover{
+    /* background-color: black; */
+    opacity: 0.7;
+    color:black;
+    cursor: pointer;
+    height: 55px;
+width: 110px;
+    }
+
+#button2{
+    height: 50px;
+width: 180px;
+font-size: 25px;
+margin: 20px 10px;
+border-radius: 15px;
+    background-color: black;
+    color: white;
+}
+
+#button2:hover{
+
+    background-color: black;
+    opacity: 0.7;
+    color: white;
+    cursor: pointer;
+    height: 55px;
+    width: 190px;
+   
+}
+
+#menu{
+    border: none;
+    font-size: 45px;
+    background-color: white;
+    display: none;
+
+}
+
+.cantener{
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+   position: absolute;
+   
+}
+
+.page{
+     margin-top: 100px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    /* margin-top: 200px;  */
+    
+}
+
+.page h3{
+    background-color: rgb(207, 223, 224);
+    height: 40px;
+    width: 300px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    color: black;
+    opacity: 0.8;
+}
+
+.page h1{
+    font-size: 100px;
+    color: black;
+    opacity: 0.8;
+}
+
+.page h2{
+    font-size: 50px;
+    color: black;
+    opacity: 0.8;
+}
+
+.page button{
+  height: 60px;
+  width: 350px;
+  font-size: 30px;
+  background-color: black;
+  opacity: 0.8;
+  color: white;
+  border-radius: 23px;
+
+}
+
+.page p{
+   
+    font-size: 20px;
+   
+    opacity: 0.8;
+   
+  
+  }
+
+  .page1{
+    /* height: 100%;
+    width: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.page2{
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 250px;
+
+}
+
+.page2 h2{
+    background-color: rgb(207, 223, 224);
+    height: 40px;
+    width: 300px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    color: black;
+    opacity: 0.8;
+}
+
+.page2 h1{
+    font-size: 80px;
+}
+
+.colom{
+    height: 60%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+
+    /* background-color: black; */
+}
+
+.colom1{
+    height: 100%;
+    width: 50%;
+    /* background-color: rgb(37, 45, 45); */
+    display: flex;
+    flex-direction: column;
+   padding: 30px 200px;
+    justify-content: center; 
+    
+}
+
+.colom2{
+    height: 100%;
+    width: 50%;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cament{
+    display: flex;
+
+}
+
+.cament h3{
+    /* background-color: antiquewhite; */
+    color: black;
+    /* height: 80px;
+    width: 300px;
+    text-align: center;
+    border-radius: 23px; */
+}
+
+.page3{
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* background-color: aqua; */
+   
+}
+
+/* .page4{
+    height: 100%;
+    width: 100%;
+   
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+  
+    background-color: red;
+} */
+
+.page4{
+    margin-top: 600px;
+   
+   
+   
+   
+   
+   
+  
+    /* background-color: red; */
+    
+}
+.page4 h2{
+    background-color: rgb(216, 234, 239);
+    color: black;
+    height: 40px;
+    width: 300px;
+    text-align: center;
+    border-radius: 23px;
+    margin-left: 800px;
+    
+}
+.page4 h5{
+    font-size: 70px;
+    margin-left: 400px;
+}
+
+.page44{
+    height: 40%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+   
+     align-items: center;
+    justify-content: space-evenly;
+    
+    margin-top: 100px;
+    
+}
+.page444{
+    height: 70%;
+    width: 70%;
+    /* background-color: black; */
+    color: black;
+
+}
+
+.page444 img{
+    width: 100%;
+    /* height: 50%; */
+}
+
+.page444 h1{
+    font-size: 20px;
+}
+
+.page444 h3{
+    height: 30px;
+    width: 190px;
+    background-color: rgb(231, 236, 241);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+}
+
+.page5{
+    /* background-color: aqua; */
+    /* height: 100%; */
+    width: 100%;
+     display: flex; 
+     align-items: center; 
+     justify-content: space-evenly; 
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+   
+}
+
+.page55{
+    height: 200px;
+    width: 430px;
+    background-color: rgb(243, 239, 235);
+    color: black;
+    margin-top: 40px;
+    padding: 10px 10px;
+    border-radius: 12px;
+  
+}
+
+.page6{
+    /* height: 100%; */
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+.page66{
+    margin-top: 200px;
+}
+
+.page66 h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    font-size: 80px;
+}
+
+.page666{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.page666 button{
+    height: 40px;
+    width: 160px;
+    background-color: antiquewhite;
+    color: black;
+    border-radius: 10px;
+    border: none;
+   
+}
+
+.page666 button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.page6666{
+    height: 500px;
+    width: 100%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.page6card{
+    height: 100%;
+    width: 30%;
+     margin-top: 100px;
+    color: black;
+    border-radius: 23px;
+ padding: 10px 20px;
+ border: 1px solid black;
+ background-color: rgb(248, 246, 243);
+ opacity: 0.8;
+}
+
+.page6card h6{
+   height: 40px;
+   width: 130px;
+   background-color: rgb(230, 224, 218);
+   color: black;
+   font-size: 30px;
+   border-radius: 23px;
+   text-align: center;
+   padding: 5px 5px;
+}
+
+.page6card p{
+    margin-top: 5px;
+    margin-left: 20px;
+    color: black;
+    font-size: 20px;
+    
+ }
+
+ .page6card h1{
+   font-size: 100px;
+ }
+
+ .page6card button{
+    margin-top: 15px;
+    height: 60px;
+    width: 300px;
+    background-color:white;
+    color:black;
+    font-size: 35px;
+    border-radius: 23px;
+    text-align: center;
+    padding: 5px 5px;
+
+
+ }
+
+.page6card button:hover{
+   
+  background-color: black;
+    color: white;
+    cursor: pointer;
+ } 
+
+ .page6card h4{
+   font-size: 30px;
+   } 
+
+   .page7{
+    margin-top: 300px;
+    /* background-color: aqua; */
+    width: 100%;
+    
+   }
+
+  /* Dropdown Button */
+.dropbtn {
+    width: 1500px;
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 50px;
+    border-radius: 12px;
+    margin-left: 200px;
+    
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    /* background-color: #f1f1f1; */
+    min-width: 150px;
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    z-index: 1;
+    font-size: 30px;
+    padding-left: 100px;
+   
+   
+    
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  /* .dropdown-content a:hover {background-color: #ddd;} */
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+
+
+  .page8{
+   
+    margin-top: 400px;
+  }
+
+
+  .page8 h1{
+    
+    text-align: center;
+    font-size: 150px;
+    font-family: cursive;
+  }
+
+  .page9{
+    width: 100%;
+    /* background-color: #3498DB; */
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    background-color: #eff2f5;
+    /* padding: 20px 30px; */
+  }
+
+  .page99{
+    height: 100%;
+    width: 23%;
+  
+    color:black;
+    padding: 20px 30px;
+  }
+
+  @media only screen and (max-width:500px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body,html{
+        height: 100%;
+        width: 100%;
+       
+    }
+    .main{
+        height: 100%;
+        width: 100%;
+    }
+    .navbar{
+        width: 80%;
+        /* background-color: #3498DB; */
+      
+    }
+
+    .cantenet ul li{
+        display: none;
+        /* display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column; */
+    }
+    .endcantenet{
+        display: none;
+    }
+    .logo{
+        margin-left: -100px;
+    }
+    #menu{
+        display: block;
+        margin-right: -70px;
+        /* margin-left: -500px; */
+    }
+
+    .cantener{
+        height: 100%;
+        width: 100%;
+        /* background-color: red; */
+        margin-top: 200px;
+    }
+    .page{
+        height: 100%;
+        width: 100%;
+        /* background-color: #3498DB; */
+        padding: 10px 20px;
+    }
+    .page h1{
+        font-size: 60px;
+        
+    }
+    .page h2{
+        font-size: 40px;
+        
+    }
+    .page button{
+        font-size: 30px;
+        
+        
+    }
+    .page1 img{
+        height: 100%;
+        width: 90%;
+        background-color: #3498DB;
+        margin-top: 200px;
+    }
+    .page2{
+        height: 100%;
+        width: 100%;
+        display: none;
+
+    }
+    .page2 h1{
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .colom{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .colom1 {
+        /* height: 100%; */
+        width: 100%;
+        margin-top: -300px;
+        /* background-color: #3498DB; */
+        /* display: none; */
+        height: 100%;
+    /* width: 50%; */
+    /* background-color: rgb(37, 45, 45); */
+    display: flex;
+    flex-direction: column;
+   padding: 30px 200px;
+    justify-content: center; 
+    }
+    .colom1 h2{
+       /* margin-top: 200px; */
+        display: none;
+    }
+    .colom1 h3{
+  /* display: none ; */
+  font-size: 40px;
+  margin-left: -34px;
+  margin-top: 800px;
+  /* display: none; */
+    }
+
+    .colom1 p{
+       width: 100%;
+       margin-top: 20px;
+       display: none;
+
+
+          }
+
+          .colom2 img{
+          margin-top: 200px;
+
+          }
+
+          .cament{
+          display: none;
+          }
+
+          #shu{
+            display: none;
+          }
+
+          .page4{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+          }
+
+          .page4 h5{
+            font-size: 20px;
+            margin-left: -30px;
+            margin-top: 20px;
+          }
+          .page4 h2{
+            font-size: 20px;
+            margin-left: -30px;
+          }
+          .page44{
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           flex-direction: column;
+           margin-top: 100px;
+           /* border: 1px solid black; */
+          }
+
+          .page444{
+            /* border: 1px solid black; */
+            margin-top: 40px;
+          }
+
+          .page5{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            /* margin-top: 100px; */
+            /* border: 1px solid black; */
+           
+           }
+
+           .page55{
+           width: 90%;
+           }
+           .page55 h1{
+          font-size: 15px;
+            }
+
+            #om{
+                margin-top: 50px;
+            }
+
+            .page6{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                /* margin-top: 600px; */
+                /* margin-top: 100px; */
+                /* border: 1px solid black; */
+                /* display: none; */
+               
+               }
+
+               .page666{
+                margin-left: 20px;
+               }
+               .page66{
+              display: none;
+               }
+
+               .page6666{
+                /* width: 100%;
+                height: 100%; */
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                margin-top: 700px;
+                
+                    /* display: none; */
+               }
+
+               .page6card{
+                height: 100%;
+                width: 90%;
+                
+               
+               }
+               .page6card h1{
+                font-size: 80px;
+                
+               
+               }
+
+               .page7{
+                width: 100%;
+               
+                margin-top: 650px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+               }
+
+               .dropdown .dropbtn{
+                font-size: 10px;
+               /* width: 100%; */
+               width: 200px;
+                 margin-right: 200px;
+
+                
+               }
+               .dropdown-content{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 50%;
+                margin-left: 150px;
+               }
+
+               .dropdown-content a{
+              
+                font-size: 20px;
+               /* padding-right: 100px; */
+                /* width: 200px; */
+                margin-left: 30px;
+               
+               
+               
+              
+               }
+
+               .page8{
+                margin-bottom: 100px;
+               }
+               .page8 h1
+               {
+                        margin-left: 30px;
+                        font-size: 40px;
+               }
+               .page8 h2
+               {
+                        margin-left: 30px;
+                       
+               }
+
+               .page9{
+                display: none;
+
+               }
+
+
+  }
