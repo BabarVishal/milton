@@ -238,14 +238,6 @@ border-radius: 15px;
 
 }
 
-.cament h3{
-    /* background-color: antiquewhite; */
-    color: black;
-    /* height: 80px;
-    width: 300px;
-    text-align: center;
-    border-radius: 23px; */
-}
 
 .page3{
     height: 100%;
@@ -495,7 +487,7 @@ border-radius: 15px;
     font-size: 30px;
     margin-top: 50px;
     border-radius: 12px;
-    margin-left: 200px;
+/*     margin-left: 200px; */
     
   }
   
